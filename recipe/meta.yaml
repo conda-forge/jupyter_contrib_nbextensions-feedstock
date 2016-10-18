@@ -1,6 +1,6 @@
 {% set name = 'jupyter_contrib_nbextensions' %}
-{% set version = '0.2.0' %}
-{% set sha256 = '9a7539834caf9e9ac29bafb94a8b2bcc227a736acdbdb0dd9206aa8e87d2d0ee' %}
+{% set version = '0.2.1' %}
+{% set sha256 = '68440161004c53fe60cd146bed250b5043132dca778a6ba58cc6352edb65f383' %}
 
 package:
   name: {{ name }}
@@ -41,7 +41,8 @@ test:
     - jupyter_contrib_nbextensions.install
     - jupyter_contrib_nbextensions.migrate
     - jupyter_contrib_nbextensions.nbconvert_support
-    - jupyter_contrib_nbextensions.nbconvert_support.post_embedhtml
+    - jupyter_contrib_nbextensions.nbconvert_support.embedhtml
+    - jupyter_contrib_nbextensions.nbconvert_support.latex_envs
     - jupyter_contrib_nbextensions.nbconvert_support.pp_highlighter
     - jupyter_contrib_nbextensions.nbconvert_support.pre_codefolding
     - jupyter_contrib_nbextensions.nbconvert_support.pre_collapsible_headings
