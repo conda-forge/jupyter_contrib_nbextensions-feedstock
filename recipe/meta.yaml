@@ -1,6 +1,6 @@
 {% set name = 'jupyter_contrib_nbextensions' %}
-{% set version = '0.2.2' %}
-{% set sha256 = 'd879662855bce0bae9814d5855ce14ecaf7dbbe0c9f45db746f7d77bcf80cc68' %}
+{% set version = '0.2.3' %}
+{% set sha256 = 'f9348bd8c48adbe54caf3acc01742c4b72fa0f2898a4fd9ebf19031788268198' %}
 
 package:
   name: {{ name }}
@@ -25,6 +25,8 @@ requirements:
     - ipython_genutils
     - jupyter_contrib_core >=0.3
     - jupyter_core
+    - jupyter_highlight_selected_word >=0.0.5
+    - jupyter_latex_envs >=1.3.4
     - jupyter_nbextensions_configurator
     - nbconvert
     - notebook >=4.0
@@ -42,7 +44,6 @@ test:
     - jupyter_contrib_nbextensions.migrate
     - jupyter_contrib_nbextensions.nbconvert_support
     - jupyter_contrib_nbextensions.nbconvert_support.embedhtml
-    - jupyter_contrib_nbextensions.nbconvert_support.latex_envs
     - jupyter_contrib_nbextensions.nbconvert_support.pp_highlighter
     - jupyter_contrib_nbextensions.nbconvert_support.pre_codefolding
     - jupyter_contrib_nbextensions.nbconvert_support.pre_collapsible_headings
