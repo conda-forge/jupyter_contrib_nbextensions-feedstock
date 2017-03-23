@@ -1,6 +1,6 @@
 {% set name = 'jupyter_contrib_nbextensions' %}
-{% set version = '0.2.4' %}
-{% set sha256 = '3c0fb4b7cca31c4231a40646f916aef83146b3023364007cdcba39152f3de4c2' %}
+{% set version = '0.2.5' %}
+{% set sha256 = 'f611006d4f7e1c7fd1f70d06195bf1ce49da330e15d3518c399a2bda9c4aff40' %}
 
 package:
   name: {{ name }}
@@ -25,16 +25,16 @@ requirements:
     - ipython_genutils
     - jupyter_contrib_core >=0.3
     - jupyter_core
-    - jupyter_highlight_selected_word >=0.0.5
-    - jupyter_latex_envs >=1.3.4
-    - jupyter_nbextensions_configurator
+    - jupyter_highlight_selected_word >=0.0.10
+    - jupyter_latex_envs >=1.3.8
+    - jupyter_nbextensions_configurator >=0.2.4
     - nbconvert
     - notebook >=4.0
     - psutil >=2.2.1
     - pyyaml
     - setuptools
     - tornado
-    - traitlets
+    - traitlets >=4.1
 
 test:
   imports:
@@ -43,10 +43,10 @@ test:
     - jupyter_contrib_nbextensions.install
     - jupyter_contrib_nbextensions.migrate
     - jupyter_contrib_nbextensions.nbconvert_support
+    - jupyter_contrib_nbextensions.nbconvert_support.collapsible_headings
     - jupyter_contrib_nbextensions.nbconvert_support.embedhtml
     - jupyter_contrib_nbextensions.nbconvert_support.pp_highlighter
     - jupyter_contrib_nbextensions.nbconvert_support.pre_codefolding
-    - jupyter_contrib_nbextensions.nbconvert_support.pre_collapsible_headings
     - jupyter_contrib_nbextensions.nbconvert_support.pre_pymarkdown
     - jupyter_contrib_nbextensions.nbconvert_support.pre_svg2pdf
     - jupyter_contrib_nbextensions.nbconvert_support.toc2
