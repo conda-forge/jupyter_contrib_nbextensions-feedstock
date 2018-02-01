@@ -51,7 +51,9 @@ install:
 
     # Add path, activate `conda` and update conda.
     - cmd: call %CONDA_INSTALL_LOCN%\Scripts\activate.bat
-    - cmd: conda update --yes --quiet conda
+    # temporary fix for conda#6527, install 4.3 specifically to avoid 4.4
+    - cmd: conda config --system --set auto_update_conda false
+    - cmd: conda install --yes --quiet conda=4.3
 
     - cmd: set PYTHONUNBUFFERED=1
 
