@@ -1,6 +1,6 @@
 {% set name = 'jupyter_contrib_nbextensions' %}
-{% set version = '0.4.0' %}
-{% set sha256 = 'dd865981105ae02cfb268c6f2d75621499933295ffe0ceefdfe4310734faaab5' %}
+{% set version = '0.5.0' %}
+{% set sha256 = '40eba9492d22302599d0a8f29d1297efb06e233677fe2d6f4d224e7c3e373872' %}
 
 package:
   name: {{ name }}
@@ -27,7 +27,7 @@ requirements:
     - ipython_genutils
     - jupyter_contrib_core >=0.3.3
     - jupyter_core
-    - jupyter_highlight_selected_word >=0.0.10
+    - jupyter_highlight_selected_word >=0.1.1
     - jupyter_latex_envs >=1.3.8
     - jupyter_nbextensions_configurator >=0.4.0
     - lxml
