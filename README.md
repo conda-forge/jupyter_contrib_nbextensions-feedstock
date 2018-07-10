@@ -14,14 +14,15 @@ Summary: A collection of various different notebook extensions for Jupyter
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jupyter_contrib_nbextensions-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jupyter_contrib_nbextensions-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/jupyter_contrib_nbextensions-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jupyter_contrib_nbextensions-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jupyter_contrib_nbextensions-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jupyter-contrib-nbextensions-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/jupyter_contrib_nbextensions-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/jupyter_contrib_nbextensions-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_contrib_nbextensions/badges/version.svg)](https://anaconda.org/conda-forge/jupyter_contrib_nbextensions)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_contrib_nbextensions/badges/downloads.svg)](https://anaconda.org/conda-forge/jupyter_contrib_nbextensions)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-jupyter_contrib_nbextensions-green.svg)](https://anaconda.org/conda-forge/jupyter_contrib_nbextensions) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jupyter_contrib_nbextensions.svg)](https://anaconda.org/conda-forge/jupyter_contrib_nbextensions) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jupyter_contrib_nbextensions.svg)](https://anaconda.org/conda-forge/jupyter_contrib_nbextensions) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jupyter_contrib_nbextensions.svg)](https://anaconda.org/conda-forge/jupyter_contrib_nbextensions) |
 
 Installing jupyter_contrib_nbextensions
 =======================================
