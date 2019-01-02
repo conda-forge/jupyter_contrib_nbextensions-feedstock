@@ -1,4 +1,4 @@
-{% set version = '0.5.1' %}
+{% set version = '0.5.0' %}
 
 package:
   name: jupyter_contrib_nbextensions
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/j/jupyter_contrib_nbextensions/jupyter_contrib_nbextensions-{{ version }}.tar.gz
-  sha256: 2c071f0aa208c569666f656bdc0f66906ca493cf9f06f46db6350db11030ff40
+  sha256: 40eba9492d22302599d0a8f29d1297efb06e233677fe2d6f4d224e7c3e373872
 
 build:
-  number: 0
+  number: 1000
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   entry_points:
     - jupyter-contrib-nbextension = jupyter_contrib_nbextensions.application:main
