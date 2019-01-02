@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/j/jupyter_contrib_nbextensions/jupyter_contrib_nbextensions-{{ version }}.tar.gz
-  sha256: 2c071f0aa208c569666f656bdc0f66906ca493cf9f06f46db6350db11030ff40
+  sha256: eecd28ecc2fc410226c0a3d4932ed2fac4860ccf8d9e9b1b29548835a35b22ab
 
 build:
   number: 0
