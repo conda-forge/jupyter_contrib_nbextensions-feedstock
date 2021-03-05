@@ -9,17 +9,18 @@ source:
   sha256: eecd28ecc2fc410226c0a3d4932ed2fac4860ccf8d9e9b1b29548835a35b22ab
 
 build:
-  number: 1
+  number: 2
+  noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   entry_points:
     - jupyter-contrib-nbextension = jupyter_contrib_nbextensions.application:main
 
 requirements:
-  build:
-    - python
+  host:
+    - python >=2.7
     - pip
   run:
-    - python
+    - python >=2.7
     - ipython_genutils
     - jupyter_contrib_core >=0.3.3
     - jupyter_core
@@ -66,3 +67,4 @@ extra:
     - jcb91
     - juhasch
     - ocefpaf
+    - xhochy
