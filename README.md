@@ -1,11 +1,11 @@
-About jupyter_contrib_nbextensions
-==================================
+About jupyter_contrib_nbextensions-feedstock
+============================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyter_contrib_nbextensions-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ipython-contrib/jupyter_contrib_nbextensions
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyter_contrib_nbextensions-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of various different notebook extensions for Jupyter
 
