@@ -23,6 +23,7 @@ requirements:
   host:
     - python >=2.7
     - pip
+    - setuptools
   run:
     - python >=2.7
     - ipython_genutils
