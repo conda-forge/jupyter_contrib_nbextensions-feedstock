@@ -21,11 +21,11 @@ build:
 
 requirements:
   host:
-    - python >=2.7
+    - python ${{ python_min }}.*
     - pip
     - setuptools
   run:
-    - python >=2.7
+    - python >=${{ python_min }}
     - ipython_genutils
     - jupyter_contrib_core >=0.3.3
     - jupyter_core
@@ -55,7 +55,9 @@ tests:
         - jupyter_contrib_nbextensions.nbconvert_support.pre_svg2pdf
         - jupyter_contrib_nbextensions.nbconvert_support.toc2
       pip_check: false
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
   - script:
       - jupyter contrib nbextension --help
       - jupyter contrib nbextensions --help
